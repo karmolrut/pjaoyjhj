@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/yyy"
+    android:layout_height="match_parent">
+
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edittext_top_bg"
+            android:padding="10dp"
+            android:hint="  Username"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#cccccc"
+            android:drawableLeft="@mipmap/ic_person_outline_white_18dp"
+            android:layout_weight="0.51"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:background="@drawable/edittext_bottom_bg"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:hint="   Password"
+            android:textColorHint="#cccccc"
+            android:password="true"
+            android:drawableLeft="@mipmap/ic_lock_outline_white_18dp"
+            android:layout_below="@+id/username"
+            android:layout_alignLeft="@+id/username"
+            android:layout_alignStart="@+id/username"
+            android:layout_marginTop="25dp" />
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Login"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_default_bg"
+            android:layout_marginTop="69dp"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logodpu"
+        android:layout_marginBottom="67dp"
+        android:layout_above="@+id/username"
+        android:layout_centerHorizontal="true" />
+
+    ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/uuu"
+        android:layout_alignBottom="@+id/username"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView" />
+
+
+</RelativeLayout>

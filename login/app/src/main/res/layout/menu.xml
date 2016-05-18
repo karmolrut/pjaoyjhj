@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/ppp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:text="กิจกรรม"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btactivity"
+        android:layout_marginBottom="31dp"
+        android:theme="@style/MyButton"
+        android:layout_above="@+id/btresultactivity"
+        android:layout_alignLeft="@+id/btresultactivity"
+        android:layout_alignStart="@+id/btresultactivity" />
+
+    <Button
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:theme="@style/MyButton"
+        android:text="สรุปผลกิจกรรม"
+        android:id="@+id/btresultactivity"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/logout"
+        android:layout_alignLeft="@+id/logout"
+        android:layout_alignStart="@+id/logout" />
+
+    <Button
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:text="ออกจากระบบ"
+        android:id="@+id/logout"
+        android:theme="@style/MyButton"
+        android:layout_marginBottom="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:textColor="#111111"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
